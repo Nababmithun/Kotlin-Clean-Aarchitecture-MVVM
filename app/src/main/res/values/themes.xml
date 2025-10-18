@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App theme (Material 3, NoActionBar) -->
+    <style name="Theme.NativeAndroidKotlinCleanArchitectureMVVMXML" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Optional: edge-to-edge friendly -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!-- If you use a custom color palette -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorSecondary">@color/teal_200</item>
+    </style>
+    <!-- ✅ Custom Filled Button Style -->
+    <style name="Widget.Material3.Button.Filled" parent="Widget.Material3.Button">
+        <!-- Rounded corners -->
+        <item name="cornerRadius">14dp</item>
+        <!-- Increase vertical padding -->
+        <item name="android:paddingVertical">14dp</item>
+        <!-- Text style -->
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <!-- Elevation and ripple -->
+        <item name="android:stateListAnimator">@null</item>
+        <item name="elevation">3dp</item>
+        <!-- Background and text color -->
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">বিগ ক্লিন কটলিন এক্সএমএল</string>
+    <string name="no_internet">ইন্টারনেট নেই</string>
+    <string name="check_connection">দয়া করে ওয়াই-ফাই বা মোবাইল ডাটা চেক করুন।</string>
+    <string name="try_again">আবার চেষ্টা করুন</string>
+    <string name="email">ইমেইল</string>
+    <string name="password">পাসওয়ার্ড</string>
+    <string name="login">লগইন</string>
+    <string name="go_register">নতুন? রেজিস্টার করুন</string>
+    <string name="name">নাম</string>
+    <string name="mobile">মোবাইল</string>
+    <string name="register">রেজিস্টার</string>
+    <string name="go_login">একাউন্ট আছে? লগইন করুন</string>
+    <string name="logged_in">লগইন সফল</string>
+    <string name="registered">রেজিস্টার সফল</string>
+    <string name="home">হোম</string>
+    <string name="history">হিস্টরি</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="notification_bar">🔔 নোটিফিকেশন</string>
+</resources>

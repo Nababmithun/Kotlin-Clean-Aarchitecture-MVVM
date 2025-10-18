@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashFragment">
+
+    <!-- Splash Screen -->
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.tss.nativeandroid_kotlin_clean_architecture_mvvm_xml.ui.splash.SplashFragment"
+        tools:layout="@layout/fragment_splash"
+        android:label="Splash">
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_splash_to_main"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+
+    <!-- Login -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.tss.nativeandroid_kotlin_clean_architecture_mvvm_xml.ui.auth.LoginFragment"
+        tools:layout="@layout/fragment_login"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <!-- Register -->
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.tss.nativeandroid_kotlin_clean_architecture_mvvm_xml.ui.auth.RegisterFragment"
+        tools:layout="@layout/fragment_register"
+        android:label="Register">
+        <action
+            android:id="@+id/action_register_to_home"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <!-- 🔥 MainFragment: acts as container for Home/History/Profile -->
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.tss.nativeandroid_kotlin_clean_architecture_mvvm_xml.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/fragment_main" />
+
+</navigation>
